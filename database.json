@@ -1,0 +1,331 @@
+{
+    "_id": {
+        "$oid": "645f8e24dfff447d6ee68c76"
+    },
+    "hospitals": {
+        "hospital_id": "H-2001",
+        "hospital_staff": [{
+            "username": "staff_user_001",
+            "staff_id": "S-001",
+            "hospital_id": "H-2001"
+        },
+        {
+            "username": "staff_user_002",
+            "staff_id": "S-002",
+            "hospital_id": "H-2001"
+        }],
+        "name": "Hudson Hospital",
+        "location": "Hudson, NY"
+    }
+}
+{
+    "patient_id": "P-001",
+    "name": "John Doe",
+    "date_of_birth": "1985-03-15",
+    "disease": "Hypertension",
+    "address": "123 Elm Street, Cityville, CA",
+    "contact_details": "555-123-4567"
+}
+
+{
+    "patient_id": "P-002",
+    "name": "Jane Smith",
+    "date_of_birth": "1990-07-22",
+    "disease": "Diabetes",
+    "address": "456 Oak Avenue, Townsville, NY",
+    "contact_details": "555-987-6543"
+}
+
+{
+    "patient_id": "P-003",
+    "name": "Alice Johnson",
+    "date_of_birth": "1976-11-10",
+    "disease": "Asthma",
+    "address": "789 Maple Road, Villagetown, TX",
+    "contact_details": "555-567-8901"
+}
+
+{
+    "patient_id": "P-004",
+    "name": "Bob Williams",
+    "date_of_birth": "1988-05-30",
+    "disease": "Arthritis",
+    "address": "234 Birch Lane, Hamletville, FL",
+    "contact_details": "555-321-6789"
+}
+
+{
+    "patient_id": "P-005",
+    "name": "Emily Davis",
+    "date_of_birth": "1995-09-17",
+    "disease": "Migraine",
+    "address": "567 Pine Street, Countryside, AZ",
+    "contact_details": "555-876-5432"
+}
+{
+    "test_id": "T-001",
+    "patient_id": "P-001",
+    "test_type": "Blood Pressure",
+    "test_date": "2023-04-05",
+    "result": "Normal",
+    "symptoms": ["None"]
+},
+{
+    "test_id": "T-002",
+    "patient_id": "P-002",
+    "test_type": "Blood Sugar",
+    "test_date": "2023-04-10",
+    "result": "High",
+    "symptoms": ["Frequent thirst", "Frequent urination"]
+},
+{
+    "test_id": "T-003",
+    "patient_id": "P-003",
+    "test_type": "Lung Function",
+    "test_date": "2023-03-28",
+    "result": "Normal",
+    "symptoms": ["Shortness of breath during exercise"]
+},
+{
+    "test_id": "T-004",
+    "patient_id": "P-004",
+    "test_type": "Joint X-ray",
+    "test_date": "2023-04-02",
+    "result": "Arthritis",
+    "symptoms": ["Joint pain", "Stiffness"]
+},
+{
+    "test_id": "T-005",
+    "patient_id": "P-005",
+    "test_type": "MRI Brain Scan",
+    "test_date": "2023-04-15",
+    "result": "Normal",
+    "symptoms": ["Frequent headaches"]
+}
+{
+    "insurance_id": "I-1001",
+    "name": "HealthShield Insurance",
+    "policy_number": "HS-12345",
+    "coverage_details": "Comprehensive Health Coverage",
+    "entity": "InsuranceCompany"
+},
+{
+    "insurance_id": "I-1002",
+    "name": "SecureCare Insurance",
+    "policy_number": "SC-67890",
+    "coverage_details": "Family Health Coverage",
+    "entity": "InsuranceCompany"
+},
+{
+    "insurance_id": "I-1003",
+    "name": "LifeGuard Insurance",
+    "policy_number": "LG-54321",
+    "coverage_details": "Life Insurance",
+    "entity": "InsuranceCompany"
+},
+{
+    "insurance_id": "I-1004",
+    "name": "DentalCare Insurance",
+    "policy_number": "DC-24680",
+    "coverage_details": "Dental Coverage",
+    "entity": "InsuranceCompany"
+},
+{
+    "insurance_id": "I-1005",
+    "name": "VisionPro Insurance",
+    "policy_number": "VP-13579",
+    "coverage_details": "Vision Care Coverage",
+    "entity": "InsuranceCompany"
+}
+[
+    {
+        "entity": "Medication",
+        "medicine_id": "MD-1001",
+        "medication_name": "Brufen",
+        "expiration_date": "2023-05-01",
+        "price": 10.99
+    },
+    {
+        "entity": "Medication",
+        "medicine_id": "MD-1002",
+        "medication_name": "Amoxicillin",
+        "expiration_date": "2023-06-15",
+        "price": 15.50
+    },
+    {
+        "entity": "Medication",
+        "medicine_id": "MD-1003",
+        "medication_name": "Aspirin",
+        "expiration_date": "2023-04-30",
+        "price": 5.99
+    },
+    {
+        "entity": "Medication",
+        "medicine_id": "MD-1004",
+        "medication_name": "Ciprofloxacin",
+        "expiration_date": "2023-07-20",
+        "price": 20.75
+    },
+    {
+        "entity": "Medication",
+        "medicine_id": "MD-1005",
+        "medication_name": "Lipitor",
+        "expiration_date": "2023-09-10",
+        "price": 25.99
+    },
+    {
+        "entity": "Employee",
+        "employee_id": "E-1001",
+        "name": "Dr. Emily Parker",
+        "contact_details": "123-456-7890",
+        "specialization": "Cardiology",
+        "employee_type": "Permanent"
+    },
+    {
+        "entity": "Employee",
+        "employee_id": "E-1002",
+        "name": "Dr. David Smith",
+        "contact_details": "123-456-7890",
+        "specialization": "Orthopedics",
+        "employee_type": "Permanent"
+    },
+    {
+        "entity": "Employee",
+        "employee_id": "E-1003",
+        "name": "Dr. Sarah Johnson",
+        "contact_details": "123-456-7890",
+        "specialization": "Pediatrics",
+        "employee_type": "Visiting"
+    },
+    {
+        "entity": "Employee",
+        "employee_id": "E-1004",
+        "name": "Nurse Jessica White",
+        "contact_details": "123-456-7890",
+        "employee_type": "Trainee"
+    },
+    {
+        "entity": "Employee",
+        "employee_id": "E-1005",
+        "name": "Nurse Michael Brown",
+        "contact_details": "123-456-7890",
+        "employee_type": "Visiting"
+    }
+]
+[
+    {
+        "entity": "Consultation",
+        "consultation_id": "CONS-1001",
+        "doctor_id": "D-001",
+        "patient_id": "P-001",
+        "date": "2023-04-15",
+        "diagnosis": "Hypertension",
+        "treatment": "Prescribed medication and lifestyle changes"
+    },
+    {
+        "entity": "Consultation",
+        "consultation_id": "CONS-1002",
+        "doctor_id": "D-002",
+        "patient_id": "P-002",
+        "date": "2023-04-18",
+        "diagnosis": "Common Cold",
+        "treatment": "Prescribed rest and over-the-counter medicine"
+    },
+    {
+        "entity": "Consultation",
+        "consultation_id": "CONS-1003",
+        "doctor_id": "D-003",
+        "patient_id": "P-003",
+        "date": "2023-04-12",
+        "diagnosis": "Acute Bronchitis",
+        "treatment": "Prescribed antibiotics and advised rest"
+    },
+    {
+        "entity": "Consultation",
+        "consultation_id": "CONS-1004",
+        "doctor_id": "D-004",
+        "patient_id": "P-004",
+        "date": "2023-04-20",
+        "diagnosis": "Gastric Ulcer",
+        "treatment": "Prescribed medication and dietary changes"
+    },
+    {
+        "entity": "Consultation",
+        "consultation_id": "CONS-1005",
+        "doctor_id": "D-005",
+        "patient_id": "P-005",
+        "date": "2023-04-14",
+        "diagnosis": "Migraine",
+        "treatment": "Prescribed pain relievers and stress management techniques"
+    },
+    {
+        "entity": "Patient_History",
+        "patient_id": "P-001",
+        "medical_history": "Hypertension, Allergies",
+        "previous_surgeries": "None",
+        "family_history": "Heart disease in family",
+        "current_medications": "Medication A, Medication B"
+    },
+    {
+        "entity": "Patient_History",
+        "patient_id": "P-002",
+        "medical_history": "Common Cold, Asthma",
+        "previous_surgeries": "Tonsillectomy",
+        "family_history": "Asthma in family",
+        "current_medications": "Medication X, Medication Y"
+    },
+    {
+        "entity": "Patient_History",
+        "patient_id": "P-003",
+        "medical_history": "Acute Bronchitis",
+        "previous_surgeries": "None",
+        "family_history": "Lung conditions in family",
+        "current_medications": "Medication P"
+    },
+    {
+        "entity": "Patient_History",
+        "patient_id": "P-004",
+        "medical_history": "Gastric Ulcer",
+        "previous_surgeries": "Appendectomy",
+        "family_history": "Stomach issues in family",
+        "current_medications": "Medication C, Medication D"
+    },
+    {
+        "entity": "Patient_History",
+        "patient_id": "P-005",
+        "medical_history": "Migraine, High Cholesterol",
+        "previous_surgeries": "Knee Surgery",
+        "family_history": "Migraine in family, Heart disease in family",
+        "current_medications": "Medication M, Medication N"
+    },
+    {
+        "entity": "Additional_Details",
+        "entity_id": "AD-1001",
+        "details": "Patient is allergic to penicillin.",
+        "patient_id": "P-001"
+    },
+    {
+        "entity": "Additional_Details",
+        "entity_id": "AD-1002",
+        "details": "Patient follows a vegan diet.",
+        "patient_id": "P-002"
+    },
+    {
+        "entity": "Additional_Details",
+        "entity_id": "AD-1003",
+        "details": "Patient is a smoker.",
+        "patient_id": "P-003"
+    },
+    {
+        "entity": "Additional_Details",
+        "entity_id": "AD-1004",
+        "details": "Patient has a pet allergy.",
+        "patient_id": "P-004"
+    },
+    {
+        "entity": "Additional_Details",
+        "entity_id": "AD-1005",
+        "details": "Patient has a history of migraines.",
+        "patient_id": "P-005"
+    }
+]
